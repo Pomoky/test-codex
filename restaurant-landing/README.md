@@ -24,8 +24,13 @@ restaurant-landing/
 - **index.html** – Entry HTML file.
 - **package.json** – Defines dependencies and scripts.
 - **vite.config.js** – Vite configuration with Vue plugin.
-- **src/** – Contains Vue components and service for the OpenAI API.
+- **src/** – Contains Vue components and service for the OpenAI API. The landing
+  page uses [Heroicons](https://github.com/tailwindlabs/heroicons) for icons in
+  the header, hero section, features and contact form.
 - **public/menu.json** – Example menu to analyze.
+
+The `LandingPage.vue` component now features a complete responsive layout with a
+header, hero section, feature list, contact form and footer.
 
 ## Usage
 
