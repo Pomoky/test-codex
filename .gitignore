@@ -1,0 +1,8 @@
+# Ignore dependencies
+node_modules/
+
+# Ignore production build
+restaurant-landing/dist/
+
+# Ignore lock files
+restaurant-landing/package-lock.json
